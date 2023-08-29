@@ -1,5 +1,5 @@
 import { useRecoilState, useRecoilValue } from "recoil";
-import { hoursSeletor, minutesState } from "./min_hours/atoms_mh";
+import { hoursSeletor, minutesState } from "./atoms_mh";
 
 function App() {
   const [minutes, setMinutes] = useRecoilState(minutesState);
