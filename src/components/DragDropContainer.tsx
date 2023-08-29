@@ -100,7 +100,7 @@ const Boards = styled.div`
 const Garbage = styled.div`
   position: fixed;
   bottom: 0px;
-  right: 0px;
+  left: 30px;
   width: 150px;
   height: 150px;
 `;

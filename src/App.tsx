@@ -19,7 +19,7 @@ const App = () => {
     <Container>
       <GlobalStyle />
       <AddBoardButton type="button" onClick={handleAddBoardButton}>
-        ✚
+        +
       </AddBoardButton>
       <BoardModal />
       <BoardTitleModal />
@@ -44,7 +44,7 @@ const Container = styled.div`
 const AddBoardButton = styled.button`
   position: absolute;
   top: 40px;
-  right: 50px;
+  left: 50px;
   border: none;
   outline: none;
   background-color: rgba(178, 190, 195, 0.5);

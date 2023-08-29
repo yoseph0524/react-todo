@@ -43,11 +43,11 @@ const BoardModal = () => {
       </button>
       <form onSubmit={handleSubmit(onValid)}>
         <div>
-          <h1>보드 추가</h1>
+          <h1>Board Name</h1>
           <input
-            {...register("title", { required: "보드를 추가하세요." })}
+            {...register("title", { required: "Add Board" })}
             type="text"
-            placeholder="보드를 추가하세요."
+            placeholder="Add Board"
           />
         </div>
       </form>

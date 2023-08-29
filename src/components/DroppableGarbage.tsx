@@ -44,7 +44,6 @@ const Content = styled.div<{
   width: 90px;
   height: 90px;
   border-radius: 50%;
-  padding: 10px;
   background-color: ${({ isDraggingOver, draggingFromThisWith }) =>
     isDraggingOver
       ? "rgba(223, 230, 233,0.3)"

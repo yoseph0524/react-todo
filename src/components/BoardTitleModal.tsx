@@ -56,11 +56,11 @@ const BoardTitleModal = () => {
       </button>
       <form onSubmit={handleSubmit(onValid)}>
         <div>
-          <h1>보드 수정</h1>
+          <h1>Board Edit</h1>
           <input
-            {...register("title", { required: "보드를 수정하세요." })}
+            {...register("title", { required: "Edit the Board" })}
             type="text"
-            placeholder="보드를 수정하세요."
+            placeholder="Edit the Board"
           />
         </div>
       </form>

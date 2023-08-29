@@ -68,9 +68,9 @@ const DroppableBoard = ({ boardId, todos }: DroppableBoardProps) => {
             <BoardId onClick={handleEditBoard}>{boardId}</BoardId>
             <BoardForm onSubmit={handleSubmit(onValid)}>
               <BoardInput
-                {...register("text", { required: "할 일을 입력하세요." })}
+                {...register("text", { required: "Do Something!" })}
                 type="text"
-                placeholder={`할 일을 추가하세요.`}
+                placeholder={`Do Something!`}
               />
             </BoardForm>
             <BoardContent

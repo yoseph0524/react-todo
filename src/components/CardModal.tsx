@@ -53,11 +53,11 @@ const CardModal = () => {
       </button>
       <form onSubmit={handleSubmit(onValid)}>
         <div>
-          <h1>할 일 수정</h1>
+          <h1>To Do Edit</h1>
           <input
-            {...register("text", { required: "할 일을 수정하세요." })}
+            {...register("text", { required: "Edit the To Do" })}
             type="text"
-            placeholder="할 일을 수정하세요."
+            placeholder="Edit the To Do"
           />
         </div>
       </form>
