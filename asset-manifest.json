@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/react-todo/static/js/main.c75cb405.js",
+    "index.html": "/react-todo/index.html",
+    "main.c75cb405.js.map": "/react-todo/static/js/main.c75cb405.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c75cb405.js"
+  ]
+}
