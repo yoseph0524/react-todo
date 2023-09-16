@@ -47,7 +47,7 @@ const AddBoardButton = styled.button`
   left: 50px;
   border: none;
   outline: none;
-  background-color: rgba(178, 190, 195, 0.5);
+  background-color: black;
   box-shadow: rgb(0 0 0 / 35%) 0px 5px 35px;
   color: white;
   padding: 10px 15px;

@@ -81,9 +81,6 @@ const DragDropContainer = () => {
           />
         ))}
       </Boards>
-      <Garbage>
-        <DroppableGarbage />
-      </Garbage>
     </DragDropContext>
   );
 };
